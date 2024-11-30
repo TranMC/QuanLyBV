@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.0">
-  <diagram name="Trang-1" id="zkVvHLpgUojK9w4qj_RJ">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.0" pages="2">
+  <diagram name="Activity Diagram" id="zkVvHLpgUojK9w4qj_RJ">
     <mxGraphModel dx="1009" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -53,6 +53,75 @@
         <mxCell id="Uh58odkdpP5MErbV-EsC-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="Uh58odkdpP5MErbV-EsC-6" target="Uh58odkdpP5MErbV-EsC-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LW_we0DgX697fdHx3GdG" name="Sequence Diagram">
+    <mxGraphModel dx="1009" dy="643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WcnWPGB4Tc75HjBpopav-1" value="Patient" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="538" as="geometry" />
+        </mxCell>
+        <mxCell id="WcnWPGB4Tc75HjBpopav-2" value="Nurse" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="262" y="20" width="150" height="538" as="geometry" />
+        </mxCell>
+        <mxCell id="WcnWPGB4Tc75HjBpopav-3" value="Doctor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="494" y="20" width="150" height="538" as="geometry" />
+        </mxCell>
+        <mxCell id="WcnWPGB4Tc75HjBpopav-4" value="System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="868" y="20" width="150" height="538" as="geometry" />
+        </mxCell>
+        <mxCell id="WcnWPGB4Tc75HjBpopav-5" value="Register for examination" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="WcnWPGB4Tc75HjBpopav-1" target="WcnWPGB4Tc75HjBpopav-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="225" y="129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WcnWPGB4Tc75HjBpopav-6" value="Enter patient information" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="WcnWPGB4Tc75HjBpopav-2" target="WcnWPGB4Tc75HjBpopav-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="649" y="183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WcnWPGB4Tc75HjBpopav-7" value="Confirm information" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="WcnWPGB4Tc75HjBpopav-4" target="WcnWPGB4Tc75HjBpopav-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="652" y="237" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WcnWPGB4Tc75HjBpopav-8" value="Forward patient details" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="WcnWPGB4Tc75HjBpopav-2" target="WcnWPGB4Tc75HjBpopav-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="462" y="291" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WcnWPGB4Tc75HjBpopav-9" value="Enter examination results and prescriptions" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="WcnWPGB4Tc75HjBpopav-3" target="WcnWPGB4Tc75HjBpopav-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="765" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WcnWPGB4Tc75HjBpopav-10" value="Save prescription information" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="WcnWPGB4Tc75HjBpopav-4" target="WcnWPGB4Tc75HjBpopav-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="768" y="399" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WcnWPGB4Tc75HjBpopav-11" value="Provide prescription" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="WcnWPGB4Tc75HjBpopav-3" target="WcnWPGB4Tc75HjBpopav-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="344" y="453" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
