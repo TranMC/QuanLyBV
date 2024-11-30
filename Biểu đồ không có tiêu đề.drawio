@@ -1,9 +1,60 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.0">
   <diagram name="Trang-1" id="zkVvHLpgUojK9w4qj_RJ">
-    <mxGraphModel>
+    <mxGraphModel dx="1009" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Uh58odkdpP5MErbV-EsC-1" value="Patient arrives for registration" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="446" y="110" width="159" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh58odkdpP5MErbV-EsC-2" value="Nurse welcomes and collects information" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="422" y="211" width="206" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh58odkdpP5MErbV-EsC-3" value="Assign a doctor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="327" width="170" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh58odkdpP5MErbV-EsC-4" value="Perform medical examination/treatment" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="410" y="425" width="230" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh58odkdpP5MErbV-EsC-5" value="Complete payment" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="427" y="541" width="196" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh58odkdpP5MErbV-EsC-6" value="Update medical history" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="411" y="640" width="228" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh58odkdpP5MErbV-EsC-7" value="End" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="738" width="50" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh58odkdpP5MErbV-EsC-8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Uh58odkdpP5MErbV-EsC-1" target="Uh58odkdpP5MErbV-EsC-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uh58odkdpP5MErbV-EsC-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Uh58odkdpP5MErbV-EsC-2" target="Uh58odkdpP5MErbV-EsC-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uh58odkdpP5MErbV-EsC-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="Uh58odkdpP5MErbV-EsC-3" target="Uh58odkdpP5MErbV-EsC-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uh58odkdpP5MErbV-EsC-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="Uh58odkdpP5MErbV-EsC-4" target="Uh58odkdpP5MErbV-EsC-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uh58odkdpP5MErbV-EsC-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Uh58odkdpP5MErbV-EsC-5" target="Uh58odkdpP5MErbV-EsC-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uh58odkdpP5MErbV-EsC-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="Uh58odkdpP5MErbV-EsC-6" target="Uh58odkdpP5MErbV-EsC-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
